@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos y Pseudo Clases</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pseudo elementos y Pseudo clases</h1>
+    <p>Carlos Hiram Sánchez Meneses - 00000246787 </p>
+    <section class="pseudo-elements">
+      <h2 id="elementos">Pseudo-elementos</h2>
+      
+    <code>::before</code>
+      <div class="before">
+        <p>Sirve para insertar algo antes de un elemento</p>
+      </div>
+
+      <code>::after</code>
+      <div class="after">
+        <p>Sirve para insertar algo despues de un elemento</p>
+      </div>
+
+      <code>::first-letter</code>
+      <div class="first-letter">
+        <p>Cambiar el estilo de la primera letra</p>
+      </div>
+
+      <code>::first-line</code>
+      <div class="first-line">
+        <p>
+            Cambiar la primera linea de un parrafo. <br>
+            Esto no deberia de cambiar <br>
+            Ni esta tampoco jeje
+        </p>
+      </div>
+
+      <code>::selection</code>
+      <div class="selection">
+        <p>Estilo personalizado para la seleccion de un parrafo. Subrayameee</p>
+      </div>
+    </section>
+
+    <section class="pseudo-classes">
+      <h2>Pseudo-clases</h2>
+      
+      <code>:hover</code>
+      <div class="hover">
+        <button>Haz hover</button>
+      </div>
+
+      <code>:focus</code>
+      <div class="focus">
+        <input type="text" placeholder="Haz clic para enfocar">
+      </div>
+
+       <code>:nth-child</code>
+      <div class="nth-child">
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </div>
+
+      <code>:first-child</code>
+      <div class="first-child">
+        <p>Este es el primer hijo.</p>
+        <p>Este es el segundo hijo.</p>
+      </div>
+
+      <code>:last-child</code>
+      <div class="last-child">
+        <p>Este es el primer hijo.</p>
+        <p>Este es el último hijo.</p>
+      </div>
+    </section>
+</body>
+</html>
